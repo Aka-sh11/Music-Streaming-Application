@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, lightblue, mistyrose);
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+h3, h2,h1 {
+  margin-top: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.btn {
+  margin: 5rem;
+}
+
+body {
+  font-family: cursive;
+  background-color: mintcream;
+  background: linear-gradient(to right, lightblue, mistyrose);
+}
+
+.msg {
+    border-width: 5px;
+    background-color: crimson;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.form-label {
+  padding-top: 15px
+}
+
+.form-text{
+  text-align: center;
+}
+
+h1, h3{
+  background: -webkit-linear-gradient(315deg,#dc627c 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

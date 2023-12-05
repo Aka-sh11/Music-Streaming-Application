@@ -1,0 +1,89 @@
+ h3, h2,h6{
+    margin:0 auto;
+    text-align:left;
+    margin-left: 0px;
+}
+
+body {
+  font-family: cursive;
+  background-color: mintcream;
+  background: linear-gradient(to right, lightblue, mistyrose);
+  padding-top: 7px
+}
+
+.nav-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+    padding-top: 6px;
+    margin-top: 6px;
+    height: 31px;
+    background-color: aliceblue;
+}
+
+.box {
+    display:flow;
+    border: 1px solid #000;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.btn{
+    margin-left: 15px;
+    margin-right: 15px;
+    background: cadetblue;
+    width: 90px;
+}
+
+.overflow-auto {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+hr{
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.box-m {
+  padding-top:0px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  padding-right: 23px;
+}
+
+@media(max-width:786px){
+  body{
+    height: 100px;
+  }
+}
+
+.dropdown-menu{
+  background: lightskyblue;
+}
+
+h3{
+  background: -webkit-linear-gradient(315deg,#dc627c 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

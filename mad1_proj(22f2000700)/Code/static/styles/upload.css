@@ -1,0 +1,84 @@
+body {
+  font-family: cursive;
+  background-color: mintcream;
+  background: linear-gradient(to right, lightblue, mistyrose);
+  padding-top: 7px
+}
+
+.nav-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h3{
+    margin:0 auto;
+    text-align:left;
+    margin-left: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 0px;
+}
+
+form{
+    margin-left:15px;
+    margin-right:20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px){
+    form{
+        width:600px;
+    }
+}
+
+.msg {
+    border-width: 5px;
+    background-color: crimson;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.form-label {
+    padding-top: 6px;
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+h3{
+  background: -webkit-linear-gradient(315deg,#dc627c 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

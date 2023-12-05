@@ -1,0 +1,93 @@
+body {
+  font-family: cursive;
+  background-color: mintcream;
+  background: linear-gradient(to right, lightblue, mistyrose);
+  padding-top: 7px
+}
+
+.header{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ h3, h2,h6{
+    margin:0 auto;
+    text-align:left;
+    margin-left: 0px;
+}
+
+.btn{
+    margin-left: 15px;
+    margin-right: 15px;
+    background: powderblue;
+    }
+
+h3{
+  background: -webkit-linear-gradient(315deg,#dc627c 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+hr{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.form-control {
+    padding-top: 6px;
+    margin-top: 6px;
+    height: 31px;
+    background-color: aliceblue;
+}
+
+.msg {
+  width: inherit;
+  color:red;
+  padding-top: 15px;
+}
+
+.box {
+  overflow-y: auto;
+  height: 85vh;
+  padding-top:0px;
+  padding-bottom: 0px;
+  padding-left: 18px;
+  padding-right: 23px;
+}
+
+.row{
+  overflow-x: hidden;
+}
+
+audio {
+  width: 255px;
+}
+
+.box-sm {
+    color: deeppink;
+    background-image: linear-gradient(to right, mistyrose, lightblue);
+    background-color: black;
+    border: 1px solid aquamarine;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.col{
+    display: flex;
+    align-content: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 23px;
+}
