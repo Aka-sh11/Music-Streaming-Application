@@ -11,4 +11,4 @@ uploaded by the creators, view the app statistics and also mark a creator as
 blacklisted/whitelisted depending on the app policies.
 
 ## Demo
-https://drive.google.com/file/d/1qjfu6rSQGRk39-PHoDzo4zjNbiESFtLr/view?usp=drive_link
+https://drive.google.com/file/d/1fjU0K1GPqg4G72auqOjyEAaxnnKIAmoH/view?usp=drive_link
